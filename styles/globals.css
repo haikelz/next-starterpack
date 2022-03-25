@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:ital@0;1&family=Source+Sans+Pro&display=swap');
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;   
+}
+
+.grid {
+  box-shadow: 4px 4px 0px 0px rgba(133,186,150,1);
+  -webkit-box-shadow: 4px 4px 0px 0px rgba(133,186,150,1);
+  -moz-box-shadow: 4px 4px 0px 0px rgba(133,186,150,1);
+}
+
+.grid:hover {
+  box-shadow: 10px 10px 0px 0px rgba(85,158,106,1);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(85,158,106,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(85,158,106,1);
+  transition: box-shadow 0.3s ease-in-out;
+}
